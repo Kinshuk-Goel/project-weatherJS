@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #a6a6a600;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: 100%;
+    font-size: 150%;
+  }
+  
+  .card {
+    background: white;
+    color: black;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    position: absolute;
+    top: 50px;
+    max-height: 500px;
+  }
+
+  .other_card {
+    background: white;
+    color: black;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    position: relative;
+    top: 250px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+
+  button {
+    margin: 0.75em;
+    border-radius: 50%;
+    border: none;
+    height: 55px;
+    width: 60px;
+    outline: none;
+    background: rgba(0, 0, 0, 0.658);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  
+  button:hover {
+    background: #7c7c7c6b;
+  }
+  
+  h2.city {
+    margin: 0;
+    margin-bottom: 0.5em;
+  }
+
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 0px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
