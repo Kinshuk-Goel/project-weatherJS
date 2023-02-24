@@ -1,5 +1,8 @@
 # The Weather Project
 
-Created by Afraz, Raghav, Navin, Kinshuk, and Steven
+Uses the OpenWeatherMap API
+Created using HTML, CSS, JavaScipt 
 
-Access Our Build at: https://theweatherproject.netlify.app/
+Access the build at hosted website: https://thwweatherproject.netlify.app/
+(It may be taken down soon, which in that case clone the project and run the html file.)
+
